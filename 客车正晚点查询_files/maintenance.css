@@ -1,0 +1,146 @@
+BODY  {
+	font-size: 9pt;
+
+}
+
+.input {
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-color: black;
+	font-size: 14px;
+	line-height: normal;
+	border-width: 1px;
+	font-weight: bold;
+	text-align: center
+}
+
+.bottom {
+    border:1px dotted #111111;
+    border-collapse: collapse;
+    color:#0000FF;
+	position: relative;
+	cursor: hand;
+	font-size: 12px;
+	background-color: #EFEFEF;
+	height: 18px;
+}
+
+TD.select{
+	color: red;
+	height: 22px;
+	background-color: #FFCCFF;
+	cursor:hand
+}
+TD.noselect{
+	color: black;
+	height: 22px;
+	background-color: #FFFFFF;
+	cursor:hand
+}
+
+#resultJsp TR.frametable {
+	
+}
+
+ #resultJsp TR.header{
+ 	color: #996600;
+	height: 22px;
+	background-color: #EBEBEB;
+	cursor: hand
+}
+#resultJsp TR.msOver {
+	color: black;
+	height: 22px;
+	background-color:#ffff99
+}
+#resultJsp TR.msOut {
+	color: black;
+	height: 22px;
+	background-color:#ffffff
+}
+#resultJsp TR.msClick {
+	color: black;
+	height: 22px;
+	background-color: #ffff33
+}
+
+CAPTION {
+	font-size: 12pt;
+	font-weight: bold
+}
+#resultJsp TD.sltTD{
+	background-image:url(../img/div2.bmp);
+	background-repeat:repeat-x;
+}
+#resultJsp TD.nosltTD{
+	background-image:url(../img/div4.bmp);
+	background-repeat:repeat-x;
+}
+.dragDropWidget {
+	position:relative;
+	height:22px;
+	width:116px;
+	top:-22px;
+	border-collapse:collapse;
+	background-color:#7B79C7;
+	filter:alpha(opacity=80);
+	-moz-opacity:.8;
+	color:white;
+	cursor:pointer;
+	cursor:hand;
+	z-index:12;
+}
+.dragDropIcon {
+	height:22px;
+	width:22px;
+	border-style:solid;
+	border-color:#4E800A;
+	border-width:1px 0px 2px 1px;
+	background-position:0px 0px;
+}
+.dragDropIcon { background-image:url(Format_tab.gif); }
+
+.dragDropLabel {
+	font-family:verdana;
+	font-size:11px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	width:114px;
+	height:22px;
+	border-style:solid;
+	border-color:#49469C;
+	border-width:1px 2px 2px 0px;
+	padding-top:2px;
+}
+.dragDIV{
+	position:absolute;
+	top:-1000px;
+}
+
+#resultJsp table{
+    border:1px solid #000;
+    border-width:1px 0 0 1px;
+    margin:2px 0 2px 0;
+    text-align:center;
+    border-collapse:collapse;
+}
+#resultJsp td,th{
+    border:1px solid #000;
+    border-width:0 1px 1px 0;
+    margin:2px 0 2px 0;
+    text-align:center;
+    padding:5px;
+    background:#f2f9ff;
+    
+}
+#resultJsp th{
+    text-align:center;
+    font-weight:600;
+    font-size:12px;
+    background-color:#F4F4F4;
+} 
+
+
+
